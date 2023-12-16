@@ -1,0 +1,11 @@
+Format of the transcripts.json file is as suchP:
+
+Dictionary for each url with url as key and transcript as value.
+Each of these dictionaries nested with a top level dictionary that has each season as its key and a list of dictionaries (of length 1 for each url) as its values.
+
+Good progress made:
+    - Need to better understand how urls work probably 
+    - Would be better to write to json iteratively to avoid having to have a large dictionary in memory - this might help speed up and would also avoid losing progress
+    - Probably need to test it works on a smaller scale but almost there
+    - Also need to think about the sort of data structure we want to view our transcripts in
+    
